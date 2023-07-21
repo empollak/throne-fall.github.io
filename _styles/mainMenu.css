@@ -1,4 +1,4 @@
-.menuSidebar
+.websiteSideBar
 {        
     /*background-color: var(--foregroundColour);*/
     border: 0px red solid;
@@ -30,7 +30,7 @@
 .menuItemLink:hover
 {
     color: var(--orange1);
-    text-decoration: overline;
+    text-decoration:underline;
 }
 .menuItemGroup
 {
