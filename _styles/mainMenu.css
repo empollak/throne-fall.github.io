@@ -13,11 +13,14 @@
 {
     font-weight: bold;
     list-style: none;
+    font-size: 1.05em;
 }
 .secondaryList
 {
     font-weight: normal;
     list-style: none;
+    font-size: 0.95em;
+    margin-left: -20px;
 }
 .menuItemLink:link
 {
@@ -34,7 +37,7 @@
 }
 .menuItemGroup
 {
-    margin-top: 5px;
+    margin-top: 7.54px;
 }
 
 #mainWebsiteTitle
