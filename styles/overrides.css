@@ -1,0 +1,128 @@
+
+@media screen and (max-width: 1300px)
+{
+    #websiteSideBar
+    {
+        background-color: rgba(0,255,0,0.5);
+    }
+    .primaryList
+    {        
+        margin-left: -20px;
+    }
+    #mainWebsiteTitle
+    {
+        font-size: x-large;
+    }
+}
+
+@media screen and (max-width: 1200px)
+{
+    #websiteSideBar
+    {
+        background-color: rgba(255,0,0,0.5);
+    }
+    #mainWebsiteTitle
+    {
+        font-size: large;
+    }
+}
+
+@media screen and (max-width: 1100px)
+{
+    #websiteSideBar
+    {
+        background-color: rgba(255,255,0,0.5);
+        font-size: 0.9em;
+        padding: 5px;
+    }
+    .primaryList
+    {        
+        margin-left: -30px;
+    }
+}
+
+@media screen and (max-width: 1000px)
+{
+    #websiteSideBar
+    {
+        background-color: rgba(0,255,0,0.5);
+    }
+}
+
+@media screen and (max-width: 1000px)
+{
+    #websiteSideBar
+    {
+        background-color: rgba(0,255,255,0.5);
+    }
+    #videoBox
+    {
+        width: 75% !important;
+    }
+}
+
+/* HIDDEN NAVBAR */
+@media screen and (max-width: 950px)
+{
+    #websiteSideBar
+    {
+        /*display: none;*/
+        background-color: rgba(200,200,200,0.75);
+        padding: 0px;
+    }
+
+    .secondaryList
+    {        
+        margin-left: -30px;
+    }
+}
+
+
+/* HIDDEN NAVBAR */
+@media screen and (max-width: 750px)
+{
+    #innerContainer
+    {
+        justify-content: center;
+    }
+    #websiteSideBar
+    {
+        display: none;
+        background-color: rgba(255,255,255,0.5);
+        
+        width: 1000%;
+    }
+
+    #pageContentBox
+    {
+        width: 100%;
+    }
+    #videoBox
+    {
+        width: 100% !important;
+    }
+}
+/* HIDDEN NAVBAR */
+@media screen and (max-width: 500px)
+{
+    #innerContainer
+    {
+        justify-content: center;
+    }
+    #websiteSideBar
+    {
+        display: none;
+        background-color: rgba(255,255,255,0.5);
+        
+        width: 1000%;
+    }
+
+    #pageContentBox
+    {
+        width: 100%;
+    }
+    #videoBox
+    {
+        width: 100% !important;
+    }
+}

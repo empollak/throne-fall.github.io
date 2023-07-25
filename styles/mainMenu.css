@@ -1,10 +1,10 @@
-.websiteSideBar
+#websiteSideBar
 {        
     /*background-color: var(--foregroundColour);*/
     border: 0px red solid;
     width: 15%;
     float: left;
-    padding: 15px;
+    padding: 10px;
     margin-right: 0px;
     border-radius: 5px;
 }

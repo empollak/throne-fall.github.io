@@ -3,7 +3,7 @@
     {
         const navHTMLRequest = await fetch('./parts/sidebar.html'); // REtrueve the file
         const navHTML        = await navHTMLRequest.text(); // Extract its content
-        document.querySelector('.websiteSideBar').innerHTML = navHTML; // Insert cintent into the selected div
+        document.querySelector('#websiteSideBar').innerHTML = navHTML; // Insert cintent into the selected div
 
         const footerHTMLRequest = await fetch("./parts/footer.html");
         const footerHTML = await footerHTMLRequest.text();
