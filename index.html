@@ -40,6 +40,7 @@
 		<link rel="stylesheet" href="./styles/overrides.css">
 
 		<script src="./scripts/insertComponents.js"></script>
+		<script src="./scripts/toggleMobiMenu.js"></script>
 
 		<link rel="shortcut icon" type="image/jpg" href="./pictures/crown.png">
 	</head>
@@ -74,7 +75,13 @@
 				border-radius: 5px;
 			}
 		</style>
+
         <div id="mainPageContainer">
+			<div id="mobiNavDiv">
+				<img src="./pictures/loading edit.gif" id="loadingMobiMenuGif">
+				<!-- Veritcal//hone navbar goes here -->
+			</div>
+
             <div id="innerContainer">
                 <div id="websiteSideBar">                    
                     <!-- Footer to be isnerted with javascript -->
@@ -86,7 +93,7 @@
                     <hr class="mainSeparator">
 		            <p>This is an unofficial Wiki for the game <a href="https://store.steampowered.com/app/2239150/Thronefall/">Thronefall</a>. As of now, this site is under construction, and deep in mind that some links or other elements might not work right now.</p>
 					<span id="whTest">W x H</span>
-					
+
 					<section id="Game_links">
 							<a href="https://store.steampowered.com/app/2239150/Thronefall/" id="steam_page" target="_blank">
 								<button type="button" class="btn btn-warning gameLinksBtn"> 
