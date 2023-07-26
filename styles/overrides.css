@@ -150,6 +150,30 @@
         list-style: none;
         font-size: 1.2em;
     }
+    
+    .columnRow
+    {
+        display: block;
+    }
+    #leftColumn
+    {
+        float:none;
+        width: 100%;
+    }
+    #rightColumn
+    {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    #mapGridSection
+    {
+        width: 100% !important;
+        padding: 0px !important;
+    }
+    .mapColumn
+    {
+        width: 100% !important;
+    }
 }
 /* HIDDEN NAVBAR */
 @media screen and (max-width: 500px)
