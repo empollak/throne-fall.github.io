@@ -44,46 +44,12 @@
 	</head>
     <body>
         <style>
-            #mapGridSection 
+            *
             {
-                margin-top: 50px;
-                width: auto;
                 border: 0px black solid;
-                padding-left:  250px;
-                padding-right: 250px;
             }
-            .mapRow
-            {
-                display: flex;
-                width: auto;
-
-                border: 0px red solid;
-            }
-            .mapColumn 
-            {
-                text-align: center;
-                float: left;
-                width: 25%;
-                border: 0px blue solid;
-                padding: 15px;
-                
-                font-weight: bold;
-                font-size: x-large;
-
-                background-color: lightgrey;
-            }
-            .mapGridPicture
-            {
-                width: 100%;
-                height: auto;
-                border-radius: 5px;
-                margin-bottom: 10px;
-            }
-            .mapGridPictureOverride
-            {
-                width: 67%;
-                height: auto;
-            }
+            
+            
         </style>
 
         <div id="mainPageContainer">
@@ -101,35 +67,32 @@
 
                     <h5><strong>The game currently contains 4 levels, but only the first 2 are playable</strong></h5>
 
-                    <section id="mapGridSection">
-                        <div id="mapRow">
-                            <div class="mapColumn">     
-                                <a href="./neuland.html" class="mapGridLink">                           
-                                    <img src="./pictures/neuland lv select.png" class="mapGridPicture" style="width: 57%;">
-                                    <p>Neuland</p>
-                                </a>
-                            </div>
-                            <div class="mapColumn"> 
-                                <a href="./nordfels.html" class="mapGridLink">                               
-                                    <img src="./pictures/nordfels lv select.png" class="mapGridPicture" style="width: 69%;">
-                                    <p>Nordfels</p>
-                                </a>
-                            </div>
-                            <div class="mapColumn">
-                                <a href="./durststein.html" class="mapGridLink">                          
-                                    <img src="./pictures/dursstein lvl select.png" class="mapGridPicture" style="width: 63%;">
-                                    <p>Durststein</p>
-                                </a>    
-                            </div>
-                            <div class="mapColumn">
-                                <a href="./frostsee.html" class="mapGridLink">                           
-                                    <img src="./pictures/forstsee lvl select.png" class="mapGridPicture" style="width: 86%;">
-                                    <p>Frostsee</p>
-                                </a>
-                            </div>
+                    <div class="gridLayout">
+                        <div class="gridItem">     
+                            <a href="./neuland.html" class="mapGridLink">                           
+                                <img src="./pictures/neuland lv select.png" class="mapGridPicture" style="width: 57%;">
+                                <br> Neuland
+                            </a>
                         </div>
-                    </section>
-
+                        <div class="gridItem"> 
+                            <a href="./nordfels.html" class="mapGridLink">                               
+                                <img src="./pictures/nordfels lv select.png" class="mapGridPicture" style="width: 69%;">
+                                <br> Nordfels
+                            </a>
+                        </div>
+                        <div class="gridItem">
+                            <a href="./durststein.html" class="mapGridLink">                          
+                                <img src="./pictures/dursstein lvl select.png" class="mapGridPicture" style="width: 63%;">
+                                <br> Durststein
+                            </a>    
+                        </div>
+                        <div class="gridItem">
+                            <a href="./frostsee.html" class="mapGridLink">                           
+                                <img src="./pictures/forstsee lvl select.png" class="mapGridPicture" style="width: 86%;">
+                                <br> Frostsee
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
             
